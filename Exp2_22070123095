@@ -71,7 +71,7 @@ BOOLEAN VALUE = false
 1
 */
 
-/*EXP 2(B)- */
+/*EXP 2(B)- boolean input from user */
 #include<iostream>
 using namespace std;
 int main()
