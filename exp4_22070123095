@@ -1,0 +1,32 @@
+/*
+    PRN : 22070123095
+    Aim : to input 2 numbers and perform mathematical operations and also use bitwise operators
+*/
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    int n1 , n2;
+    cout<<"ENTER THE FIRST NUMBER : ";
+    cin>>n1;
+    cout<<"ENTER THE SECOND NUMBER : ";
+    cin>>n2;
+    cout<<"ADDITION = "<<n1+n2<<endl;
+    cout<<"SUBTRACTION = "<<n1-n2<<endl;
+    bool com = n1 > n2;
+    cout<<"COMPARISION = "<<com<<endl;
+    int band = n1 & n2;
+    cout<<"BITWISE AND = "<<band<<endl;
+    int bor = n1 | n2;
+    cout<<"BITWISE OR = "<<bor<<endl;
+    return 0;
+}
+
+/*OUTPUT-ENTER THE FIRST NUMBER : 67
+ENTER THE SECOND NUMBER : 89
+ADDITION = 156
+SUBTRACTION = -22
+COMPARISION = 0
+BITWISE AND = 65
+BITWISE OR = 91*/
