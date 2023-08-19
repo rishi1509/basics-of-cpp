@@ -11,5 +11,5 @@ int main()
     
 }
 /*OUTPUT
-yes the image is coloured
+yes the image is colourful
 */
