@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    bool imagecolor = false;
+    bool imagecolor = true;
     if(imagecolor)
       cout<<"yes the image is colourful"<<endl;
     else
@@ -10,3 +10,6 @@ int main()
 
     
 }
+/*OUTPUT
+yes the image is coloured
+*/
