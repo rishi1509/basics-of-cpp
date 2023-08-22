@@ -14,8 +14,8 @@ int main() {
 return 0;
 }
 /*OUTPUT
-Enter your name: Rishi
-My name is: Rishi
+Enter your name: rishi mukherjee
+My name is: rishi mukherjee
 */
 
 /*PRN: 22070123095
@@ -162,4 +162,6 @@ return 0;
 Enter a string: rishi
 The original string is: rishi
 The new string is: RISHI
+
 */
+
